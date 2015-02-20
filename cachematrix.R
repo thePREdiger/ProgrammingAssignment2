@@ -2,8 +2,6 @@
 ## compute it repeatedly (there are also alternatives to matrix inversion that we will not discuss here). 
 ## Your assignment is to write a pair of functions that cache the inverse of a matrix.
 
-## Write a short comment describing this function
-
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y){
@@ -19,8 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
        getmatrix = getmatrix)
 }
 
-
-## Write a short comment describing this function
 
 cacheSolve <- function(x = matrix(), ...) {
   m <- x$getmatrix()
